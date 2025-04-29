@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-18=w9az+vrgj*ssr*mm5w(p#zh5)5%(%y)65_xmwelba1u33(^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -41,10 +41,10 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
-     'whitenoise.middleware.WhiteNoiseMiddleware',
-      pip install gunicorn
-      pip install whitenoise
-      pip freeze > requirements.txt
+    'whitenoise.middleware.WhiteNoiseMiddleware',
+    'pip install gunicorn
+    'pip install whitenoise
+    'pip freeze > requirements.txt
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
